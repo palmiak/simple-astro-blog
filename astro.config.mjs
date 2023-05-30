@@ -12,8 +12,5 @@ export default defineConfig({
     image({ serviceEntryPoint: '@astrojs/image/sharp' }),
     robotsTxt()
   ],
-  site: 'https://simple-astro-blog.vercel.app',
-  experimental: {
-    integrations: true
-  }
+  site: 'https://simple-astro-blog.vercel.app'
 })
